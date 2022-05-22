@@ -160,10 +160,17 @@ def execute_practice2():
   
   # 왼쪽으로 회전 함수
   def turn_left():
+    # (0: 북, 1: 동, 2: 남, 3: 서)
     global direction
     direction -= 1
     if direction == -1:
       direction = 3
+    # 처음 들어온게 북쪽임 (0)
+    # 그러면 -1 되고 direction에 3(서쪽) 저장
+    # 북
+    #서 동
+    # 남
+    # 이니까 시계 반대방향으로 90도 회전 처리됨
     
   count = 1
   turn_time = 0
