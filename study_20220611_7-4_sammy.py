@@ -21,7 +21,6 @@
 import sys
 
 input_data = sys.stdin.readline().rstrip()
-
 print(input_data)
 
 #readline()으로 입력하면 입력 후 엔터가 줄바꿈 기호가 입력되는데, 이 공백 문자를 제거하려면 rstrip() 함수 필요
